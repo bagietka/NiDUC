@@ -5,9 +5,9 @@ Skład zespołu:
 * Adam Guszkowski
 * Oliwier Salamon
 
-Wybrane zagadnienie:
+Wybrane zagadnienie: Model serwerowni :analiza parametrów usług, które można zaoferować klientom (SLA: Service Level Agreement)
 
 
-Wybrana technologia:
+Wybrana technologia: Octave (w przypadku zbyt dużych przeciwności losu, przejście na C++/Javę)
 
 

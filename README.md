@@ -3,7 +3,9 @@
 Skład zespołu:
 
 Piotr Antoniszyn[L] - główny programista
+
 Adam Guszkowski - mniejszy programista, sprawozdawca
+
 Oliwier Salamon - mniejszy programista, odpowiedzialny za matematyczną zgodność projektu
 
 

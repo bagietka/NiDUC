@@ -73,9 +73,128 @@ public class Window {
 		JPanel panel = new JPanel();
 		panel.setBorder(new MatteBorder(1, 1, 1, 1, (Color) new Color(0, 0, 0)));
 		panel.setBackground(new Color(255, 255, 255));
-		panel.setBounds(-183, 11, 653, 465);
+		panel.setBounds(10, 16, 484, 483);
 		frmSymulacja.getContentPane().add(panel);
 		
+		
+		
+		//----------------------------------------------------------------------------------
+		//pola tekstowe na koszty sumaryczne (liczba przedmiotów * koszt jednostkowy)
+		txtKosztSumaryczny = new JTextField();
+		txtKosztSumaryczny.setText("Koszt sumaryczny");
+		txtKosztSumaryczny.setEditable(false);
+		txtKosztSumaryczny.setBounds(955, 36, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny);
+		txtKosztSumaryczny.setColumns(10);
+		
+		txtKosztSumaryczny_1 = new JTextField();
+		txtKosztSumaryczny_1.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_1.setEditable(false);
+		txtKosztSumaryczny_1.setColumns(10);
+		txtKosztSumaryczny_1.setBounds(955, 82, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_1);
+				
+		txtKosztSumaryczny_2 = new JTextField();
+		txtKosztSumaryczny_2.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_2.setEditable(false);
+		txtKosztSumaryczny_2.setColumns(10);
+		txtKosztSumaryczny_2.setBounds(955, 128, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_2);
+			
+		txtKosztSumaryczny_3 = new JTextField();
+		txtKosztSumaryczny_3.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_3.setEditable(false);
+		txtKosztSumaryczny_3.setColumns(10);
+		txtKosztSumaryczny_3.setBounds(955, 174, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_3);
+				
+		txtKosztSumaryczny_4 = new JTextField();
+		txtKosztSumaryczny_4.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_4.setEditable(false);
+		txtKosztSumaryczny_4.setColumns(10);
+		txtKosztSumaryczny_4.setBounds(955, 220, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_4);
+				
+		txtKosztSumaryczny_5 = new JTextField();
+		txtKosztSumaryczny_5.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_5.setEditable(false);
+		txtKosztSumaryczny_5.setColumns(10);
+		txtKosztSumaryczny_5.setBounds(955, 266, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_5);
+				
+		txtKosztSumaryczny_6 = new JTextField();
+		txtKosztSumaryczny_6.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_6.setEditable(false);
+		txtKosztSumaryczny_6.setColumns(10);
+		txtKosztSumaryczny_6.setBounds(955, 312, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_6);
+				
+	/*	txtKosztSumaryczny_7 = new JTextField();
+		txtKosztSumaryczny_7.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_7.setEditable(false);
+		txtKosztSumaryczny_7.setColumns(10);
+		txtKosztSumaryczny_7.setBounds(955, 358, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_7);*/
+			
+		//----------------------------------------------------------------------------------
+		//pola na wymagan¹ liczbê sztuk ka¿dego przedmiotu
+					
+		txtLiczbaSztuk = new JTextField();
+		txtLiczbaSztuk.setText("Liczba sztuk");
+		txtLiczbaSztuk.setEditable(false);
+		txtLiczbaSztuk.setColumns(10);
+		txtLiczbaSztuk.setBounds(856, 36, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk);
+				
+		txtLiczbaSztuk_1 = new JTextField();
+		txtLiczbaSztuk_1.setText("Liczba sztuk");
+		txtLiczbaSztuk_1.setEditable(false);
+		txtLiczbaSztuk_1.setColumns(10);
+		txtLiczbaSztuk_1.setBounds(856, 82, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk_1);
+				
+		txtLiczbaSztuk_2 = new JTextField();
+		txtLiczbaSztuk_2.setText("Liczba sztuk");
+		txtLiczbaSztuk_2.setEditable(false);
+		txtLiczbaSztuk_2.setColumns(10);
+		txtLiczbaSztuk_2.setBounds(856, 128, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk_2);
+				
+		txtLiczbaSztuk_3 = new JTextField();
+		txtLiczbaSztuk_3.setText("Liczba sztuk");
+		txtLiczbaSztuk_3.setEditable(false);
+		txtLiczbaSztuk_3.setColumns(10);
+		txtLiczbaSztuk_3.setBounds(856, 174, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk_3);
+				
+		txtLiczbaSztuk_4 = new JTextField();
+		txtLiczbaSztuk_4.setText("Liczba sztuk");
+		txtLiczbaSztuk_4.setEditable(false);
+		txtLiczbaSztuk_4.setColumns(10);
+		txtLiczbaSztuk_4.setBounds(856, 220, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk_4);
+				
+		txtLiczbaSztuk_5 = new JTextField();
+		txtLiczbaSztuk_5.setText("Liczba sztuk");
+		txtLiczbaSztuk_5.setEditable(false);
+		txtLiczbaSztuk_5.setColumns(10);
+		txtLiczbaSztuk_5.setBounds(856, 266, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk_5);
+				
+		txtLiczbaSztuk_6 = new JTextField();
+		txtLiczbaSztuk_6.setText("Liczba sztuk");
+		txtLiczbaSztuk_6.setEditable(false);
+		txtLiczbaSztuk_6.setColumns(10);
+		txtLiczbaSztuk_6.setBounds(856, 312, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk_6);
+				
+	/*	txtLiczbaSztuk_7 = new JTextField();
+		txtLiczbaSztuk_7.setText("Liczba sztuk");
+		txtLiczbaSztuk_7.setEditable(false);
+		txtLiczbaSztuk_7.setColumns(10);
+		txtLiczbaSztuk_7.setBounds(856, 358, 78, 20);
+		frmSymulacja.getContentPane().add(txtLiczbaSztuk_7);*/
+
 		
 		
 		//----------------------------------------------------------------------------------
@@ -112,170 +231,147 @@ public class Window {
 		JLabel label_6 = new JLabel("Czynniki losowe");
 		label_6.setBounds(521, 361, 109, 14);
 		frmSymulacja.getContentPane().add(label_6);
-				
+			
+		
+		
+		
+		
+		
 		//----------------------------------------------------------------------------------
 		//menusy
 		
 		//!!!!! odkomentowaæ linijki comboBox_1.setSelectedIndex(0); jak ju¿ dodamy te rzeczy w klasie FillItems (bo inaczej bêd¹ wskazywaæ na NULL)
 		
 		JComboBox comboBox = new JComboBox(filler.getDiscsNames());
+		comboBox.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox.getSelectedIndex();
+				double price = filler.getPrice(filler.discs, index) * filler.getQuantity(filler.discs, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny.setText(text);
+				int quantity = filler.getQuantity(filler.discs, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk.setText(quant);
+				
+			}
+		});
 		comboBox.setSelectedIndex(0);
-		comboBox.setBounds(656, 39, 130, 20);
+		comboBox.setBounds(656, 39, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox);
 		
 		JComboBox comboBox_1 = new JComboBox(filler.getRoutersNames());
-//		comboBox_1.setSelectedIndex(0);
-		comboBox_1.setBounds(656, 85, 130, 20);
+		comboBox_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox_1.getSelectedIndex();
+				double price = filler.getPrice(filler.routers, index) * filler.getQuantity(filler.routers, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny_1.setText(text);
+				int quantity = filler.getQuantity(filler.routers, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk_1.setText(quant);
+			}
+		});
+		comboBox_1.setSelectedIndex(0);
+		comboBox_1.setBounds(656, 85, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox_1);
 		
 		JComboBox comboBox_2 = new JComboBox(filler.getSwitchesNames());
-//		comboBox_2.setSelectedIndex(0);
-		comboBox_2.setBounds(656, 131, 130, 20);
+		comboBox_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox_2.getSelectedIndex();
+				double price = filler.getPrice(filler.switches, index) * filler.getQuantity(filler.switches, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny_2.setText(text);
+				int quantity = filler.getQuantity(filler.switches, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk_2.setText(quant);
+			}
+		});
+		comboBox_2.setSelectedIndex(0);
+		comboBox_2.setBounds(656, 131, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox_2);
 		
 		JComboBox comboBox_3 = new JComboBox(filler.getCoolingSystemsNames());
-//		comboBox_3.setSelectedIndex(0);
-		comboBox_3.setBounds(656, 177, 130, 20);
+		comboBox_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox_3.getSelectedIndex();
+				double price = filler.getPrice(filler.cooling_systems, index) * filler.getQuantity(filler.cooling_systems, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny_3.setText(text);
+				int quantity = filler.getQuantity(filler.cooling_systems, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk_3.setText(quant);
+			}
+		});
+		comboBox_3.setSelectedIndex(0);
+		comboBox_3.setBounds(656, 177, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox_3);
 		
 		JComboBox comboBox_4 = new JComboBox(filler.getFirewallsNames());
-//		comboBox_4.setSelectedIndex(0);
-		comboBox_4.setBounds(656, 223, 130, 20);
+		comboBox_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox_4.getSelectedIndex();
+				double price = filler.getPrice(filler.firewalls, index) * filler.getQuantity(filler.firewalls, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny_4.setText(text);
+				int quantity = filler.getQuantity(filler.firewalls, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk_4.setText(quant);
+			}
+		});
+		comboBox_4.setSelectedIndex(0);
+		comboBox_4.setBounds(656, 223, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox_4);
 		
 		JComboBox comboBox_5 = new JComboBox(filler.getPowerSystemsNames());
-//		comboBox_5.setSelectedIndex(0);
-		comboBox_5.setBounds(656, 269, 130, 20);
+		comboBox_5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox_5.getSelectedIndex();
+				double price = filler.getPrice(filler.power_systems, index) * filler.getQuantity(filler.power_systems, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny_5.setText(text);
+				int quantity = filler.getQuantity(filler.power_systems, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk_5.setText(quant);
+			}
+		});
+		comboBox_5.setSelectedIndex(0);
+		comboBox_5.setBounds(656, 269, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox_5);
 		
 		JComboBox comboBox_6 = new JComboBox(filler.getAggregatesNames());
-//		comboBox_6.setSelectedIndex(0);
-		comboBox_6.setBounds(656, 315, 130, 20);
+		comboBox_6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox_6.getSelectedIndex();
+				double price = filler.getPrice(filler.aggregates, index) * filler.getQuantity(filler.aggregates, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny_6.setText(text);
+				int quantity = filler.getQuantity(filler.aggregates, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk_6.setText(quant);
+			}
+		});
+		comboBox_6.setSelectedIndex(0);
+		comboBox_6.setBounds(656, 315, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox_6);
 		
 		JComboBox comboBox_7 = new JComboBox(filler.getRandomNames());
-//		comboBox_7.setSelectedIndex(0);
-		comboBox_7.setBounds(656, 361, 130, 20);
+		comboBox_7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int index = comboBox_7.getSelectedIndex();
+			/*	double price = filler.getPrice(filler.random, index) * filler.getQuantity(filler.random, index);
+				String text = String.format("%.2f", price);
+				txtKosztSumaryczny_7.setText(text);
+				int quantity = filler.getQuantity(filler.random, index);
+				String quant = String.valueOf(quantity);
+				txtLiczbaSztuk_7.setText(quant);*/
+			}
+		});
+		comboBox_7.setSelectedIndex(0);
+		comboBox_7.setBounds(656, 361, 190, 20);
 		frmSymulacja.getContentPane().add(comboBox_7);
 		
 		
-		//----------------------------------------------------------------------------------
-		//pola tekstowe na koszty sumaryczne (liczba przedmiotów * koszt jednostkowy)
 		
-		txtKosztSumaryczny = new JTextField();
-		txtKosztSumaryczny.setText("Koszt sumaryczny");
-		txtKosztSumaryczny.setEditable(false);
-		txtKosztSumaryczny.setBounds(955, 36, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny);
-		txtKosztSumaryczny.setColumns(10);
-		
-		txtKosztSumaryczny_1 = new JTextField();
-		txtKosztSumaryczny_1.setText("Koszt sumaryczny");
-		txtKosztSumaryczny_1.setEditable(false);
-		txtKosztSumaryczny_1.setColumns(10);
-		txtKosztSumaryczny_1.setBounds(955, 82, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny_1);
-		
-		txtKosztSumaryczny_2 = new JTextField();
-		txtKosztSumaryczny_2.setText("Koszt sumaryczny");
-		txtKosztSumaryczny_2.setEditable(false);
-		txtKosztSumaryczny_2.setColumns(10);
-		txtKosztSumaryczny_2.setBounds(955, 128, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny_2);
-		
-		txtKosztSumaryczny_3 = new JTextField();
-		txtKosztSumaryczny_3.setText("Koszt sumaryczny");
-		txtKosztSumaryczny_3.setEditable(false);
-		txtKosztSumaryczny_3.setColumns(10);
-		txtKosztSumaryczny_3.setBounds(955, 174, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny_3);
-		
-		txtKosztSumaryczny_4 = new JTextField();
-		txtKosztSumaryczny_4.setText("Koszt sumaryczny");
-		txtKosztSumaryczny_4.setEditable(false);
-		txtKosztSumaryczny_4.setColumns(10);
-		txtKosztSumaryczny_4.setBounds(955, 220, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny_4);
-		
-		txtKosztSumaryczny_5 = new JTextField();
-		txtKosztSumaryczny_5.setText("Koszt sumaryczny");
-		txtKosztSumaryczny_5.setEditable(false);
-		txtKosztSumaryczny_5.setColumns(10);
-		txtKosztSumaryczny_5.setBounds(955, 266, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny_5);
-		
-		txtKosztSumaryczny_6 = new JTextField();
-		txtKosztSumaryczny_6.setText("Koszt sumaryczny");
-		txtKosztSumaryczny_6.setEditable(false);
-		txtKosztSumaryczny_6.setColumns(10);
-		txtKosztSumaryczny_6.setBounds(955, 312, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny_6);
-		
-		txtKosztSumaryczny_7 = new JTextField();
-		txtKosztSumaryczny_7.setText("Koszt sumaryczny");
-		txtKosztSumaryczny_7.setEditable(false);
-		txtKosztSumaryczny_7.setColumns(10);
-		txtKosztSumaryczny_7.setBounds(955, 358, 105, 20);
-		frmSymulacja.getContentPane().add(txtKosztSumaryczny_7);
-		
-		//----------------------------------------------------------------------------------
-		//pola na wymagan¹ liczbê sztuk ka¿dego przedmiotu
-			
-		txtLiczbaSztuk = new JTextField();
-		txtLiczbaSztuk.setText("Liczba sztuk");
-		txtLiczbaSztuk.setEditable(false);
-		txtLiczbaSztuk.setColumns(10);
-		txtLiczbaSztuk.setBounds(856, 36, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk);
-		
-		txtLiczbaSztuk_1 = new JTextField();
-		txtLiczbaSztuk_1.setText("Liczba sztuk");
-		txtLiczbaSztuk_1.setEditable(false);
-		txtLiczbaSztuk_1.setColumns(10);
-		txtLiczbaSztuk_1.setBounds(856, 82, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk_1);
-		
-		txtLiczbaSztuk_2 = new JTextField();
-		txtLiczbaSztuk_2.setText("Liczba sztuk");
-		txtLiczbaSztuk_2.setEditable(false);
-		txtLiczbaSztuk_2.setColumns(10);
-		txtLiczbaSztuk_2.setBounds(856, 128, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk_2);
-		
-		txtLiczbaSztuk_3 = new JTextField();
-		txtLiczbaSztuk_3.setText("Liczba sztuk");
-		txtLiczbaSztuk_3.setEditable(false);
-		txtLiczbaSztuk_3.setColumns(10);
-		txtLiczbaSztuk_3.setBounds(856, 174, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk_3);
-		
-		txtLiczbaSztuk_4 = new JTextField();
-		txtLiczbaSztuk_4.setText("Liczba sztuk");
-		txtLiczbaSztuk_4.setEditable(false);
-		txtLiczbaSztuk_4.setColumns(10);
-		txtLiczbaSztuk_4.setBounds(856, 220, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk_4);
-		
-		txtLiczbaSztuk_5 = new JTextField();
-		txtLiczbaSztuk_5.setText("Liczba sztuk");
-		txtLiczbaSztuk_5.setEditable(false);
-		txtLiczbaSztuk_5.setColumns(10);
-		txtLiczbaSztuk_5.setBounds(856, 266, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk_5);
-		
-		txtLiczbaSztuk_6 = new JTextField();
-		txtLiczbaSztuk_6.setText("Liczba sztuk");
-		txtLiczbaSztuk_6.setEditable(false);
-		txtLiczbaSztuk_6.setColumns(10);
-		txtLiczbaSztuk_6.setBounds(856, 312, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk_6);
-		
-		txtLiczbaSztuk_7 = new JTextField();
-		txtLiczbaSztuk_7.setText("Liczba sztuk");
-		txtLiczbaSztuk_7.setEditable(false);
-		txtLiczbaSztuk_7.setColumns(10);
-		txtLiczbaSztuk_7.setBounds(856, 358, 78, 20);
-		frmSymulacja.getContentPane().add(txtLiczbaSztuk_7);
-
 	}
 }

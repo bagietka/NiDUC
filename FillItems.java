@@ -17,6 +17,54 @@ public class FillItems
 		fill();
 	}
 	
+	double getPrice(LinkedList<Item> list, int index)
+	{
+		int count = 0;
+		for (Item i : list)
+		{
+			if (count == index) return i.getPrice();
+			count++;
+		}
+		return -1;
+	}
+	
+	int getQuantity(LinkedList<Item> list, int index)
+	{
+		int count = 0;
+		for (Item i : list)
+		{
+			if (count == index) return i.getQuantity();
+			count++;
+		}
+		return -1;
+	}
+	
+	double getReliability(LinkedList<Item> list, int index)
+	{
+		int count = 0;
+		for (Item i : list)
+		{
+			if (count == index) return i.getReliability();
+			count++;
+		}
+		return -1;
+	}
+	
+	
+	String getName(LinkedList<Item> list, int index)
+	{
+		int count = 0;
+		for (Item i : list)
+		{
+			if (count == index) return i.getName();
+			count++;
+		}
+		return "ERROR";
+	}
+	
+	
+	
+		
 	String[] getDiscsNames()
 	{
 		int temp = discs.size();
@@ -153,33 +201,40 @@ public class FillItems
 		
 		
 		
-		
+		//aggregates
+		aggregates.add(Item.makeItem("Fogo 59KW 74 KVA FDG 80 IS", 62000.0, 0.99, 1));
 		
 		
 		//------------------------------------------------------------------------------------
 		//routers
-
+		routers.add(Item.makeItem("NoNoname 200", 32.02, 0.5, 1));	
 		
 		
 		//------------------------------------------------------------------------------------
 		//switches
+		switches.add(Item.makeItem("Cisco Systems N7K-C7018 ", 29000, 0.995, 1));
+		
 		
 		
 		//------------------------------------------------------------------------------------
 		//firewalls
+		firewalls.add(Item.makeItem("Huawei Secospace USG6380", 20500.0, 0.96, 1));
+		
 		
 		
 		//------------------------------------------------------------------------------------
 		//cooling systems
-		
+		cooling_systems.add(Item.makeItem("Liquid Cooling Unit LCU DX", 49555.0, 0.95, 1));
 		
 		//------------------------------------------------------------------------------------
 		//power systems
+		power_systems.add(Item.makeItem("UPS Delta DLT300 330", 50862.0, 0.91, 1));
+		
 		
 		
 		//------------------------------------------------------------------------------------
 		//random
-		
+		random.add(Item.makeItem("Niebezpieczna dzielnica", 0, 0, 1));
 		
 		
 		

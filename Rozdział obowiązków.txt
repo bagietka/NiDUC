@@ -1,0 +1,21 @@
+
+Piotr:
+-prezentacja
+-projektowanie serwerowni(ewentualnie)
+-MTBRy
+-dokumentacja/sprawozdanie
+
+
+
+Oliwier:
+-dublowanie sprzêtu(³adna redundancja)
+-wspó³czynniki niezawodnoœci
+-formu³a podsumowuj¹ca(wspó³czynniki wszystkich elementów i liczby sztuk) - example: 0,9891 tj.ileœ tam szans na jebut w ci¹gu roku/5 lat etc
+-wiêcej modeli dostêpnych(dyski SSD!!!!)
+
+
+
+
+Grucha:
+-dokumentacja/sprawozdanie
+-jak zrobiæ wykres dzia³ania serwerowni?

@@ -21,6 +21,7 @@ public class Window {
 	private JTextField txtKosztSumaryczny_5;
 	private JTextField txtKosztSumaryczny_6;
 	private JTextField txtKosztSumaryczny_7;
+	private JTextField txtKosztSumaryczny_8;
 	private JTextField txtLiczbaSztuk;
 	private JTextField txtLiczbaSztuk_1;
 	private JTextField txtLiczbaSztuk_2;
@@ -29,6 +30,7 @@ public class Window {
 	private JTextField txtLiczbaSztuk_5;
 	private JTextField txtLiczbaSztuk_6;
 	private JTextField txtLiczbaSztuk_7;
+	
 
 	/**
 	 * Launch the application.
@@ -135,6 +137,13 @@ public class Window {
 		txtKosztSumaryczny_7.setColumns(10);
 		txtKosztSumaryczny_7.setBounds(955, 358, 105, 20);
 		frmSymulacja.getContentPane().add(txtKosztSumaryczny_7);*/
+	
+		txtKosztSumaryczny_8 = new JTextField();
+		txtKosztSumaryczny_8.setText("Koszt sumaryczny");
+		txtKosztSumaryczny_8.setEditable(false);
+		txtKosztSumaryczny_8.setColumns(10);
+		txtKosztSumaryczny_8.setBounds(955, 404, 105, 20);
+		frmSymulacja.getContentPane().add(txtKosztSumaryczny_8);
 			
 		//----------------------------------------------------------------------------------
 		//pola na wymagan¹ liczbê sztuk ka¿dego przedmiotu
@@ -232,7 +241,9 @@ public class Window {
 		label_6.setBounds(521, 361, 109, 14);
 		frmSymulacja.getContentPane().add(label_6);
 			
-		
+		JLabel label_7 = new JLabel("£aczny MTBF");
+		label_7.setBounds(521, 407, 109, 14);
+		frmSymulacja.getContentPane().add(label_7);
 		
 		
 		

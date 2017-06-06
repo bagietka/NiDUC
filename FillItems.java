@@ -198,28 +198,28 @@ public class FillItems
 		//that's how you add new items to lists
 		discs.add(Item.makeItem("Seagate SkyHawk 1TB", 233.01, 0.90, 20));
 		discs.add(Item.makeItem("Toshiba N300 4TB", 595.03, 0.95, 5));
-		
+		discs.add(Item.makeItem("Intel DC S3700 SSD 400GB", 3498.82, 0.95, 2));
 		
 		
 		//aggregates
-		aggregates.add(Item.makeItem("Fogo 59KW 74 KVA FDG 80 IS", 62000.0, 0.99, 1));
+		aggregates.add(Item.makeItem("Fogo 59KW 74 KVA FDG 80 IS", 52000.0, 0.99, 1));
+		aggregates.add(Item.makeItem("Fogo FDG 80 PD 81 KVA 65 KW ", 54400.0, 0.99, 1));
 		
 		
 		//------------------------------------------------------------------------------------
 		//routers
-		routers.add(Item.makeItem("NoNoname 200", 32.02, 0.5, 1));	
+		routers.add(Item.makeItem("Cisco C819G-4G-GA-K9",3899.0, 0.5, 1));	
 		
 		
 		//------------------------------------------------------------------------------------
 		//switches
 		switches.add(Item.makeItem("Cisco Systems N7K-C7018 ", 29000, 0.995, 1));
-		
-		
+		switches.add(Item.makeItem("Cisco SG200-50-K9-EU ", 2100, 0.995, 10));
 		
 		//------------------------------------------------------------------------------------
 		//firewalls
 		firewalls.add(Item.makeItem("Huawei Secospace USG6380", 20500.0, 0.96, 1));
-		
+		firewalls.add(Item.makeItem("ZyXEL USG310", 5279.0, 0.96, 1));
 		
 		
 		//------------------------------------------------------------------------------------

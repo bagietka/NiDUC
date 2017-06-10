@@ -204,6 +204,10 @@ public class FillItems
 		//aggregates
 		aggregates.add(Item.makeItem("Fogo 59KW 74 KVA FDG 80 IS", 52000.0, 0.99, 1));
 		aggregates.add(Item.makeItem("Fogo FDG 80 PD 81 KVA 65 KW ", 54400.0, 0.99, 1));
+		aggregates.add(Item.makeItem("AN-S3/65 z ATS 50kW", 34999.0, 0.99, 1));
+		aggregates.add(Item.makeItem("GF2-30 30kW", 31500.0, 0.99, 1));
+		aggregates.add(Item.makeItem("AN-S3/130 z ATS 100kW", 49900.0, 0.99, 1));
+		
 		
 		
 		//------------------------------------------------------------------------------------
@@ -215,20 +219,35 @@ public class FillItems
 		//switches
 		switches.add(Item.makeItem("Cisco Systems N7K-C7018 ", 29000, 0.995, 1));
 		switches.add(Item.makeItem("Cisco SG200-50-K9-EU ", 2100, 0.995, 10));
+		switches.add(Item.makeItem("Cisco Systems N7K-C7009", 52490.19, 0.995, 10));
+		switches.add(Item.makeItem("Cisco Systems N7k-C7010", 858240.0, 0.995, 10));
+		switches.add(Item.makeItem("Cisco Systems N5K-C5548P-Fa", 27992.0, 0.995, 10));
+		switches.add(Item.makeItem("Cisco Systems N5K-C5548UP-FA", 56022.0, 0.995, 10));
+		switches.add(Item.makeItem("Cisco Systems N4k-40001l-XPX", 26160.0, 0.995, 10));
 		
 		//------------------------------------------------------------------------------------
 		//firewalls
 		firewalls.add(Item.makeItem("Huawei Secospace USG6380", 20500.0, 0.96, 1));
 		firewalls.add(Item.makeItem("ZyXEL USG310", 5279.0, 0.96, 1));
+		firewalls.add(Item.makeItem("Huawei Secospace USG6320", 4128.15, 0.96, 1));
+		firewalls.add(Item.makeItem("Huawei Secospace USG6390 ", 24172.93, 0.96, 1));
 		
 		
 		//------------------------------------------------------------------------------------
 		//cooling systems
 		cooling_systems.add(Item.makeItem("Liquid Cooling Unit LCU DX", 49555.0, 0.95, 1));
+		cooling_systems.add(Item.makeItem("Top Therm Blue", 16456.61, 0.95, 1));
+		cooling_systems.add(Item.makeItem("Panasonic E9PKEA ", 4485.0, 0.95, 1));
+		cooling_systems.add(Item.makeItem("FUJITSU ASYG 12LTCA/AOYG 12LTC ", 6002.0, 0.95, 1));
+		cooling_systems.add(Item.makeItem("Samsung Prestige", 6030.0, 0.95, 1));
+
 		
 		//------------------------------------------------------------------------------------
 		//power systems
 		power_systems.add(Item.makeItem("UPS Delta DLT300 330", 50862.0, 0.91, 1));
+		power_systems.add(Item.makeItem("UPS Delta DLT300 3200 ", 247624.00, 0.91, 1));
+		power_systems.add(Item.makeItem("UPS Delta DLT300 3120", 144493.00, 0.91, 1));
+		power_systems.add(Item.makeItem("UPS APC Smart-UPS VT ISX", 87922.00, 0.91, 1));
 		
 		
 		

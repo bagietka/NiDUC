@@ -5,7 +5,7 @@ SEAGATE SKYHAWK 3,5 HDD - 1000000 h (wersje1/2/3/4/6/8/10TB)
 Intel DC S3700 SSD 400GB - 2000000 h(wersje 100/200/400/800GB)
 Toshiba N300 - 1000000 h
 Agregaty
-Agregat Fogo 59kW 74 KVA FDG 80 IS - 1000h (za��cza si� samoczynnie przy braku zasilania)
+Agregat Fogo 59kW 74 KVA FDG 80 IS - 1000h (załšcza się samoczynnie przy braku zasilania)
 Fogo FDG 80 PD 81 KVA 65 KW - 1000h
 
 Routery
@@ -21,3 +21,36 @@ Firewalle
 Huawei Secospace USG6380 -104839 h
 Zyxel USG310 - 560811,5 h
 
+**** POZOSTAŁE MTBFY W SERWEROWNIA.DOCX !!! ****
+
+Obliczenia:
+
+MTBF = MTTF+MTTR - podany
+
+MTBF wspolny kilku parametrow
+mtbf(c1,c2,...) = [ mtbf(c1)*mtbf(c2)*... ]/[mtbf(c1)+mtbf(c2)+...]
+
+dostepnosc A = MTTF/(MTTF+MTTR)=MTTF/MTBF
+
+Potrzebujemy MMTRy dla sprzętow
+podzielmy na przypadki: 1 - lekka awaria, 2 - awaria wymagająca wymiany komponentu
+System klimatyzacji:
+1 - niech będzie ok 3-4h
+2 - razem z dowozem i instalacją itp 48h (ekstremalnie rzadki przypadek)
+Zasilacze:
+Nie są używane zbyt często, więc posiadanie drugiego w przypadku awarii jest zbędne, zatem
+2 - 24h
+Agregat prądotworczy:
+Też podobna sytuacja jak zasilacz, ale tutaj wymiana może trwać dłuzej.
+Agregaty działają ok. 1000h, ale tylko gdy następuje awaria nadrzędnego zasilania.
+Powinna zatem włączać się u nas jedynie na czas awarii.
+2 - 72h
+Firewall:
+1 - 2h
+2 - 4h
+Switch:
+1 - 1h
+2 - 2.5h
+Router:
+1 -1.5h
+2 - 3h

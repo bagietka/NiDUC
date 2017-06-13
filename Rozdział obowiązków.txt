@@ -1,21 +1,14 @@
 
 Piotr:
--prezentacja
--projektowanie serwerowni(ewentualnie)
--MTBRy
--dokumentacja/sprawozdanie
-
-
+- skoñczyæ prezentacjê
+- skoñczyæ dokumentacjê/sprawozdanie
 
 Oliwier:
--dublowanie sprzêtu(³adna redundancja)
--wspó³czynniki niezawodnoœci
--formu³a podsumowuj¹ca(wspó³czynniki wszystkich elementów i liczby sztuk) - example: 0,9891 tj.ileœ tam szans na jebut w ci¹gu roku/5 lat etc
--wiêcej modeli dostêpnych(dyski SSD!!!!)
-
+- wiêcej modeli routerów (bo jest jeden);
+- realne MTBF-y klimatyzacji i reszty agregatów (bo póki co s¹ z dupy);
 
 
 
 Grucha:
--dokumentacja/sprawozdanie
--jak zrobiæ wykres dzia³ania serwerowni?
+- wykres dzia³ania serwerowni? 
+- wklepanie nowych routerów i dostêpnoœci do kodu;

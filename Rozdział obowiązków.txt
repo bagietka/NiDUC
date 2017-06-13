@@ -1,14 +1,13 @@
 
 Piotr:
-- skoñczyæ prezentacjê
-- skoñczyæ dokumentacjê/sprawozdanie
+- skoÅ„czyÄ‡ prezentacjÄ™
+- skoÅ„czyÄ‡ dokumentacjÄ™/sprawozdanie
 
 Oliwier:
-- wiêcej modeli routerów (bo jest jeden);
-- realne MTBF-y klimatyzacji i reszty agregatów (bo póki co s¹ z dupy);
-
-
+- wiÄ™cej modeli routerÃ³w (bo jest jeden);
+- realne MTBF-y klimatyzacji i reszty agregatÃ³w (bo pÃ³ki co sÄ… z dupy);
+- przemyÅ›lenie, czy serio jest nam potrzeba 10 switchÃ³w;
 
 Grucha:
-- wykres dzia³ania serwerowni? 
-- wklepanie nowych routerów i dostêpnoœci do kodu;
+- wykres dziaÅ‚ania serwerowni? 
+- wklepanie nowych routerÃ³w i dostÄ™pnoÅ›ci do kodu;

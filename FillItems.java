@@ -216,6 +216,10 @@ public class FillItems
 		//------------------------------------------------------------------------------------
 		//routers
 		routers.add(Item.makeItem("Cisco C819G-4G-GA-K9",3899.0, 0.999995, 1));//OK
+		routers.add(Item.makeItem("CISCO 1941/K9",3265.26, 0.999995, 1));//OK
+		routers.add(Item.makeItem("CISCO2911-SEC/K9",8528.13, 0.999996, 1));//OK
+		routers.add(Item.makeItem("CISCO 2901 W/2 GE4",4059.0, 0.999995, 1));//OK
+		routers.add(Item.makeItem("CISCO FLASR1-CE-4KR",565329.00, 0.999999, 1));//OK
 		
 		
 		//------------------------------------------------------------------------------------
@@ -223,7 +227,6 @@ public class FillItems
 		switches.add(Item.makeItem("Cisco Systems N7K-C7018 ", 29000, 0.99999515, 1));//OK
 		switches.add(Item.makeItem("Cisco SG200-50-K9-EU ", 2100, 0.99999579, 10));//OK
 		switches.add(Item.makeItem("Cisco Systems N7K-C7009", 52490.19, 0.99999686, 10));//OK
-		switches.add(Item.makeItem("Cisco Systems N7k-C7010", 858240.0, 0.99999622, 10));//OK
 		switches.add(Item.makeItem("Cisco Systems N5K-C5548P-Fa", 27992.0, 0.99998983, 10));//OK
 		switches.add(Item.makeItem("Cisco Systems N5K-C5548UP-FA", 56022.0, 0.99998983, 10));//OK
 		switches.add(Item.makeItem("Cisco Systems N4k-40001l-XPX", 26160.0, 0.99999466, 10));//OK
@@ -238,19 +241,19 @@ public class FillItems
 		
 		//------------------------------------------------------------------------------------
 		//cooling systems
-		cooling_systems.add(Item.makeItem("Liquid Cooling Unit LCU DX", 49555.0, 0.95, 1));
-		cooling_systems.add(Item.makeItem("Top Therm Blue", 16456.61, 0.95, 1));
-		cooling_systems.add(Item.makeItem("Panasonic E9PKEA ", 4485.0, 0.95, 1));
-		cooling_systems.add(Item.makeItem("FUJITSU ASYG 12LTCA/AOYG 12LTC ", 6002.0, 0.95, 1));
-		cooling_systems.add(Item.makeItem("Samsung Prestige", 6030.0, 0.95, 1));
+		cooling_systems.add(Item.makeItem("Liquid Cooling Unit LCU DX", 49555.0, 0.9999463, 1));
+		cooling_systems.add(Item.makeItem("Top Therm Blue", 16456.61, 0.999886, 1));
+		cooling_systems.add(Item.makeItem("Panasonic E9PKEA ", 4485.0, 0.998996, 1));
+		cooling_systems.add(Item.makeItem("FUJITSU ASYG 12LTCA/AOYG 12LTC ", 6002.0, 0.999566, 1));
+		cooling_systems.add(Item.makeItem("Samsung Prestige", 6030.0, 0.999686, 1));
 
 		
 		//------------------------------------------------------------------------------------
 		//power systems
-		power_systems.add(Item.makeItem("UPS Delta DLT300 330", 50862.0, 0.91, 1));
-		power_systems.add(Item.makeItem("UPS Delta DLT300 3200 ", 247624.00, 0.91, 1));
-		power_systems.add(Item.makeItem("UPS Delta DLT300 3120", 144493.00, 0.91, 1));
-		power_systems.add(Item.makeItem("UPS APC Smart-UPS VT ISX", 87922.00, 0.91, 1));
+		power_systems.add(Item.makeItem("UPS Delta DLT300 330", 50862.0, 0.9998597, 1));
+		power_systems.add(Item.makeItem("UPS Delta DLT300 3200 ", 247624.00, 0.99998757, 1));
+		power_systems.add(Item.makeItem("UPS Delta DLT300 3120", 144493.00, 0.9999214, 1));
+		power_systems.add(Item.makeItem("UPS APC Smart-UPS VT ISX", 87922.00, 0.9998947, 1));
 		
 		
 		

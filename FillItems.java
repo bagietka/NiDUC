@@ -201,7 +201,7 @@ public class FillItems
 		
 		discs.add(Item.makeItem("Seagate SkyHawk 1TB", 233.01, 0.999999, 20));//OK
 		discs.add(Item.makeItem("Toshiba N300 4TB", 595.03, 0.9999995, 5));//OK
-		discs.add(Item.makeItem("Intel DC S3700 SSD 400GB", 3498.82, 0.999999, 2));//OK
+		discs.add(Item.makeItem("Intel DC S3700 SSD 400GB", 3498.82, 0.999999, 50));//OK
 		
 		
 		//aggregates

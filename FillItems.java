@@ -197,7 +197,7 @@ public class FillItems
 		
 		//that's how you add new items to lists
 		
-		//OK znaczy, ¿e jest to rzeczywista dostêpnoœæ, obliczona w Excelu
+		//OK znaczy, ï¿½e jest to rzeczywista dostï¿½pnoï¿½ï¿½, obliczona w Excelu
 		
 		discs.add(Item.makeItem("Seagate SkyHawk 1TB", 233.01, 0.999999, 20));//OK
 		discs.add(Item.makeItem("Toshiba N300 4TB", 595.03, 0.9999995, 5));//OK
@@ -205,31 +205,31 @@ public class FillItems
 		
 		
 		//aggregates
-		aggregates.add(Item.makeItem("Fogo 59KW 74 KVA FDG 80 IS", 52000.0, 0.928, 1));//OK
-		aggregates.add(Item.makeItem("Fogo FDG 80 PD 81 KVA 65 KW ", 54400.0, 0.928, 1));//OK
-		aggregates.add(Item.makeItem("AN-S3/65 z ATS 50kW", 34999.0, 0.99, 1));
-		aggregates.add(Item.makeItem("GF2-30 30kW", 31500.0, 0.99, 1));
-		aggregates.add(Item.makeItem("AN-S3/130 z ATS 100kW", 49900.0, 0.99, 1));
+		aggregates.add(Item.makeItem("Fogo 59KW 74 KVA FDG 80 IS", 52000.0, 1, 1));//OK
+		aggregates.add(Item.makeItem("Fogo FDG 80 PD 81 KVA 65 KW ", 54400.0, 1, 1));//OK
+		aggregates.add(Item.makeItem("AN-S3/65 z ATS 50kW", 34999.0, 1, 1));//OK
+		aggregates.add(Item.makeItem("GF2-30 30kW", 31500.0, 1, 1));//OK
+		aggregates.add(Item.makeItem("AN-S3/130 z ATS 100kW", 49900.0, 1, 1));//OK
 		
 		
 		
 		//------------------------------------------------------------------------------------
 		//routers
 		routers.add(Item.makeItem("Cisco C819G-4G-GA-K9",3899.0, 0.999995, 1));//OK
-		routers.add(Item.makeItem("CISCO 1941/K9",3265.26, 0.999995, 1));//OK
-		routers.add(Item.makeItem("CISCO2911-SEC/K9",8528.13, 0.999996, 1));//OK
-		routers.add(Item.makeItem("CISCO 2901 W/2 GE4",4059.0, 0.999995, 1));//OK
-		routers.add(Item.makeItem("CISCO FLASR1-CE-4KR",565329.00, 0.999999, 1));//OK
+		routers.add(Item.makeItem("Cisco 1941/K9",3265.26, 0.999995, 1));//OK
+		routers.add(Item.makeItem("Cisco 2911-SEC/K9",8528.13, 0.999996, 1));//OK
+		routers.add(Item.makeItem("Cisco 2901 W/2 GE4",4059.0, 0.999995, 1));//OK
+	//	routers.add(Item.makeItem("Cisco FLASR1-CE-4KR",565329.00, 0.999999, 1));//OK
 		
 		
 		//------------------------------------------------------------------------------------
 		//switches
 		switches.add(Item.makeItem("Cisco Systems N7K-C7018 ", 29000, 0.99999515, 1));//OK
-		switches.add(Item.makeItem("Cisco SG200-50-K9-EU ", 2100, 0.99999579, 10));//OK
-		switches.add(Item.makeItem("Cisco Systems N7K-C7009", 52490.19, 0.99999686, 10));//OK
-		switches.add(Item.makeItem("Cisco Systems N5K-C5548P-Fa", 27992.0, 0.99998983, 10));//OK
-		switches.add(Item.makeItem("Cisco Systems N5K-C5548UP-FA", 56022.0, 0.99998983, 10));//OK
-		switches.add(Item.makeItem("Cisco Systems N4k-40001l-XPX", 26160.0, 0.99999466, 10));//OK
+		switches.add(Item.makeItem("Cisco SG200-50-K9-EU ", 2100, 0.99999579, 1));//OK
+		switches.add(Item.makeItem("Cisco Systems N7K-C7009", 52490.19, 0.99999686, 1));//OK
+		switches.add(Item.makeItem("Cisco Systems N5K-C5548P-Fa", 27992.0, 0.99998983, 1));//OK
+		switches.add(Item.makeItem("Cisco Systems N5K-C5548UP-FA", 56022.0, 0.99998983, 1));//OK
+		switches.add(Item.makeItem("Cisco Systems N4k-40001l-XPX", 26160.0, 0.99999466, 1));//OK
 		
 		//------------------------------------------------------------------------------------
 		//firewalls
@@ -244,7 +244,7 @@ public class FillItems
 		cooling_systems.add(Item.makeItem("Liquid Cooling Unit LCU DX", 49555.0, 0.9999463, 1));
 		cooling_systems.add(Item.makeItem("Top Therm Blue", 16456.61, 0.999886, 1));
 		cooling_systems.add(Item.makeItem("Panasonic E9PKEA ", 4485.0, 0.998996, 1));
-		cooling_systems.add(Item.makeItem("FUJITSU ASYG 12LTCA/AOYG 12LTC ", 6002.0, 0.999566, 1));
+		cooling_systems.add(Item.makeItem("Fujitsu ASYG 12LTCA/AOYG 12LTC ", 6002.0, 0.999566, 1));
 		cooling_systems.add(Item.makeItem("Samsung Prestige", 6030.0, 0.999686, 1));
 
 		
@@ -259,8 +259,8 @@ public class FillItems
 		
 		//------------------------------------------------------------------------------------
 		//random
-		random.add(Item.makeItem("Niebezpieczna dzielnica", 0, 0.995, 1));
-		random.add(Item.makeItem("Normalne warunki", 0, 0.999, 1));
+		random.add(Item.makeItem("Niebezpieczna dzielnica", 0, 0.99, 1));
+		random.add(Item.makeItem("Normalne warunki", 0, 0.9975, 1));
 		random.add(Item.makeItem("Brak czynnika w symulacji", 0, 1.0, 1));
 		
 		
